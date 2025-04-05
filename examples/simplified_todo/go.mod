@@ -1,8 +1,8 @@
-module github.com/vijay/finch-ui/examples/simplified_todo
+module github.com/aggnr/finch/examples/simplified_todo
 
 go 1.23.0
 
-require github.com/vijay/finch-ui v0.0.0
+require github.com/aggnr/finch v0.0.0
 
 require (
 	github.com/ebitengine/gomobile v0.0.0-20240911145611-4856209ac325 // indirect
@@ -15,4 +15,4 @@ require (
 	golang.org/x/sys v0.25.0 // indirect
 )
 
-replace github.com/vijay/finch-ui => ../../
+replace github.com/aggnr/finch => ../../

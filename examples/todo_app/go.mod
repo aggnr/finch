@@ -1,10 +1,10 @@
-module github.com/vijay/finch-ui/examples/todo_app
+module github.com/aggnr/finch/examples/todo_app
 
 go 1.23.0
 
 require (
 	github.com/hajimehoshi/ebiten/v2 v2.8.7
-	github.com/vijay/finch-ui v0.0.0
+	github.com/aggnr/finch v0.0.0
 )
 
 require (
@@ -17,4 +17,4 @@ require (
 	golang.org/x/sys v0.25.0 // indirect
 )
 
-replace github.com/vijay/finch-ui => ../../
+replace github.com/aggnr/finch => ../../

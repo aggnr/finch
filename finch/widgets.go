@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"github.com/vijay/finch-ui/components"
+	"github.com/aggnr/finch/components"
 )
 
 // Text represents a text element like a label

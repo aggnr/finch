@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/vijay/finch-ui/components"
+	"github.com/aggnr/finch/components"
 )
 
 // TestEvent represents a test event
@@ -347,7 +347,13 @@ func (s *MemorySurface) Image() *image.RGBA {
 	return s.img
 }
 
-// abs returns the absolute value of x
+// DrawImage draws an image with the specified fit method
+func (s *MemorySurface) DrawImage(img image.Image, x, y, width, height int, fitMethod components.ImageFitMethod) {
+	// Simple implementation - just draw a placeholder rectangle
+	s.FillRect(x, y, width, height, color.RGBA{200, 200, 200, 255})
+	s.DrawRect(x, y, width, height, color.RGBA{150, 150, 150, 255})
+}
+
 func abs(x int) int {
 	if x < 0 {
 		return -x

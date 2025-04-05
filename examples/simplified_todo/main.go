@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/vijay/finch-ui/finch"
+	"github.com/aggnr/finch/finch"
 )
 
 // TodoItem represents a single todo item with its data

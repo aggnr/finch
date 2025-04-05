@@ -7,7 +7,7 @@ import (
 
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/vijay/finch-ui/components"
+	"github.com/aggnr/finch/components"
 )
 
 // DOMTestGame is a game that runs DOM-based UI tests

@@ -8,7 +8,7 @@ import (
 
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
-	"github.com/vijay/finch-ui/components"
+	"github.com/aggnr/finch/components"
 )
 
 // Global reference to the current UITestGame instance

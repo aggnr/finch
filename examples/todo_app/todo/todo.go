@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"github.com/vijay/finch-ui/components"
+	"github.com/aggnr/finch/components"
 )
 
 // TodoItem represents a single todo item with its data

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vijay/finch-ui/components"
+	"github.com/aggnr/finch/components"
 )
 
 // InteractiveAction represents a single action in a test scenario

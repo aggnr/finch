@@ -9,7 +9,7 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 
 	// Use the module path instead of a relative path
-	"github.com/vijay/finch-ui/components"
+	"github.com/aggnr/finch/components"
 )
 
 const (

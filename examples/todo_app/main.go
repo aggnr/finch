@@ -8,9 +8,9 @@ import (
 	"github.com/hajimehoshi/ebiten/v2"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 
-	// Use the module path instead of a relative path
-	"github.com/vijay/finch-ui/components"
-	"github.com/vijay/finch-ui/examples/todo_app/todo"
+	// Use the new module path
+	"github.com/aggnr/finch/components"
+	"github.com/aggnr/finch/examples/todo_app/todo"
 )
 
 const (
