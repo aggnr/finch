@@ -1,0 +1,94 @@
+# Finch UI Framework Guidelines
+
+## Project Goals
+
+Finch UI is a DOM-based GUI framework for Go applications with the following goals:
+
+1. **Component-Based Architecture**: Create reusable, composable UI components that can be combined to build complex interfaces
+2. **Intuitive API**: Provide a clean, intuitive API that makes UI construction simple and readable
+3. **Visual Testing**: Support interactive UI testing where developers can see and interact with components
+4. **Performance**: Maintain high performance even with complex UI hierarchies
+5. **Flexibility**: Allow customization of appearance and behavior through a consistent interface
+
+## Design Principles
+
+1. **Composition Over Inheritance**: Components should be composable rather than relying on complex inheritance hierarchies
+2. **Declarative Style**: UI creation should be declarative whenever possible
+3. **Predictable State Management**: Component state changes should be predictable and traceable
+4. **Testability**: All components should be easily testable through automation
+5. **Minimal Dependencies**: Keep external dependencies to a minimum
+
+## File Structure
+
+- **core.go**: Core types, interfaces, and common utilities
+- **node.go**: Base Node implementation for the DOM tree
+- **containers.go**: Layout components like FlexContainer
+- **controls.go**: Interactive controls like Button and Checkbox
+- **text.go**: Text-related components like Text and Label
+- **form.go**: Form-related components like TextArea, Select, and Form
+- **media.go**: Media components like Image, Video, and Audio
+- **inspector.go**: Tools for inspecting and debugging the component tree
+
+## Component Guidelines
+
+1. Each component should:
+   - Have a clear, single responsibility
+   - Implement the NodeElement interface
+   - Follow consistent naming conventions
+   - Include proper documentation
+   - Support accessibility features where applicable
+
+2. Naming conventions:
+   - Use clear, descriptive names without unnecessary prefixes
+   - Components should use singular nouns (Button, not Buttons)
+   - Event handlers should use On- prefix (OnClick, OnChange)
+   - Getters/setters follow Go conventions (GetValue/SetValue)
+
+## Testing Strategy
+
+1. **Unit Tests**: Test individual component functionality
+2. **Integration Tests**: Test component interactions
+3. **Visual Tests**: Interactive tests showing component rendering and behavior
+4. **Performance Tests**: Ensure UI remains responsive with many components
+
+## Example Usage
+
+Every component should be demonstrated in a sample application that shows:
+1. Basic usage
+2. Common customizations
+3. Event handling
+4. Integration with other components
+
+## Component List
+
+### Core
+- **Node**: Base element that provides common functionality
+- **FlexContainer**: Flexible container for layout
+
+### Controls
+- **Button**: Standard pushbutton control
+- **Checkbox**: Toggle control for boolean values
+
+### Text
+- **Text**: Simple text display
+- **Label**: Text with additional styling
+
+### Form
+- **TextArea**: Multi-line text input
+- **Select**: Dropdown selection control
+- **Form**: Container for form elements
+
+### Media
+- **Image**: Image display component
+
+## Examples
+- **simple_demo**: Basic demonstration of core components
+- **todo_app**: Todo list application demonstrating task management with custom Todo and TodoList components
+
+## Future Development
+
+1. Enhance layout system with more container types
+2. Expand form component selection
+3. Add theming support
+4. Improve accessibility features
+5. Add animation capabilities 
